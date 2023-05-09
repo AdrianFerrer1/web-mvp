@@ -6,7 +6,7 @@
     
 </script>
 <label>
-    <p class={email ? "above" : "center"}>Email</p>
+    <p class="E-mail">Esto es el correo</p>
     <input bind:value={email} type="email" placeholder="Email"/>
 </label>
 <label>
@@ -15,3 +15,9 @@
 </label>
 
 <button on:click={() => goto("/orbital-ceu")}>SUBMIT</button>
+<style>
+    .E-mail{
+        background-color: red;
+
+    }
+</style>
