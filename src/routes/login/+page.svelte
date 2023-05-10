@@ -23,9 +23,8 @@
     <p class="password">Contraseña</p>
     <input class="contpass" bind:value={password} type="password" placeholder="Contraseña"/>
 </label>
-<div id="boton">
-<button on:click={() => goto("/orbital-ceu")}>SUBMIT</button>
-</div>
+    <button id="boton" on:click={() => goto("/orbital-ceu")}>SUBMIT</button>
+
 </body>
 <style>
     .E-mail{
@@ -78,9 +77,12 @@
        width: 1000px;
     }
     #boton{
-      margin-top: 860px;
-      margin-left: 1420px;
-      transform: scale(1);
+        top: 860px;
+        left: 1420px;
+        position: absolute;
+      /* margin-top: 860px;
+      margin-left: 1420px; */
+      width: auto;
     }
     
 </style>
