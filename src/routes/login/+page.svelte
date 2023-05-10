@@ -7,10 +7,11 @@
 
     
 </script>
+
 <body>
-    <div id="logo">
-    <img class="pequeña" src="/Logo.png"/>
-    <div/>
+<div id="logo">
+<img class="pequeña" src="/Logo.png"/>
+<div/>
 
 <label>
     <p class="E-mail">Usuario</p>
@@ -62,30 +63,24 @@
         font-size: 46px;
         
     }
-    .boton{
-        position: absolute;
-        top: 47%;
-        left: 62.2%;
-        transform: translate(-50%, -50%);
-        font-size: 46px;
-    }
   
     *{
         font-family: "Orbitron"
            
     }
-
-   
-    #boton{
-      margin-top: 860px;
-      margin-left: 915px;
-      transform: scale(1);
+    body{
+        
     }
-
+    
     .pequeña{
        margin-top: 250px;
        margin-left: 150px;
        width: 1000px;
+    }
+    #boton{
+      margin-top: 860px;
+      margin-left: 1420px;
+      transform: scale(1);
     }
     
 </style>
