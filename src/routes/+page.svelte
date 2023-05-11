@@ -3,9 +3,7 @@
 
     // @ts-ignore
     function handleEnter(e){
-        setTimeout(function(){
-            e.target.play();
-        }, 300); // LO MISMO QUE ABAJO LA TRANSICION DE EASE IN, ASI EMPIEZA A LA VEZ QUE SE "ENCIENDE"
+        e.target.play();
     }
 
     //@ts-ignore
@@ -41,7 +39,7 @@
     <video loop class="video2 video2-t" src="/OrbitantAlumnos.mp4" on:mouseenter={handleEnter} on:mouseleave={handleLeave}></video>
     <div class="botoncillos">        
         <button class="btnAlumno btnAlumno-t" on:click={() => goto('/login')}>
-            Miembro CEU
+            Usuario CEU
         </button>
         <button class="btnInv btnInv-t" on:click={() => goto('/orbital-ceu-inv')}>
             INVITADO
@@ -82,7 +80,7 @@
         font-family: 'Orbitron';
         font-style: normal;
         font-weight: 700;
-        background-color: #3FF4F4;
+        background-color:greenyellow;
         position: absolute;
         width: 22vmin;
         height: 22vmin;
@@ -102,7 +100,7 @@
         font-family: 'Orbitron';
         font-style: normal;
         font-weight: 700;
-        background-color: #F43FCD;
+        background-color: darkorange;
         position: absolute;
         width: 22vmin;
         height: 22vmin;
@@ -128,7 +126,7 @@
 
     .btnAlumno:active{
         filter: none;
-        background-color: greenyellow;
+        background-color: darkorange;
         transition: none;
         width: 21vmin;
         height: 21vmin;
@@ -138,7 +136,7 @@
 
     .btnInv:active{
         filter: none;
-        background-color:orangered;
+        background-color:greenyellow;
         transition: none;
         width: 21vmin;
         height: 21vmin;
@@ -163,7 +161,7 @@
     } */
 
     .video1{
-        opacity: 50%;
+        opacity: 100%;
         right: 0vmin;
         width: 50%;
         /* top: 21px; */ /*Este es el bueno*/
@@ -173,7 +171,7 @@
     }
 
     .video2{
-        opacity: 50%;
+        opacity: 100%;
         left: 0vmin;
         width: 50%;
         top: 10vmax;
