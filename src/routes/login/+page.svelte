@@ -3,32 +3,31 @@
 
     let email = "";
     let password = "";
-   
 
+    let background = "aqua";
     
 </script>
 
-<body>
-<div id="logo">
-<img class="pequeña" src="/Logo.png"/>
-<div/>
+<body style:background-color={background}>
+    <div id="logo">
+        <img class="pequeña" src="/Logo.png" alt="logo orbital ceu"/>
+    </div>
+        
+    <label>
+        <p class="E-mail">Usuario</p>
+        <input class="contemail" bind:value={email} type="email" placeholder="Email"/>
 
-<label>
-    <p class="E-mail">Usuario</p>
-    <input class="contemail" bind:value={email} type="email" placeholder="Email"/>
-
-</label>
-<label>
-    
-    <p class="password">Contraseña</p>
-    <input class="contpass" bind:value={password} type="password" placeholder="Contraseña"/>
-</label>
-    <button id="boton" on:click={() => goto("/orbital-ceu")}>SUBMIT</button>
+    </label>
+    <label>
+        
+        <p class="password">Contraseña</p>
+        <input class="contpass" bind:value={password} type="password" placeholder="Contraseña"/>
+    </label>
+        <button id="boton" on:click={() => goto("/orbital-ceu")}>SUBMIT</button>
 
 </body>
 <style>
     .E-mail{
-      
         position: absolute;
         top: 30%;
         left: 60.3%;
@@ -38,13 +37,11 @@
         
     
     .contpass{
-       
         position: absolute;
         top: 57%;
         left: 64.4%;
         transform: translate(-50%, -50%);
         transform: scale(3);
-        
     }
     
     .contemail{
@@ -60,14 +57,6 @@
         left: 62.2%;
         transform: translate(-50%, -50%);
         font-size: 46px;
-        
-    }
-  
-    *{
-        font-family: "Orbitron"
-           
-    }
-    body{
         
     }
     
