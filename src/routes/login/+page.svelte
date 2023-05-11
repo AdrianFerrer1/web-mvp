@@ -8,7 +8,7 @@
     
 </script>
 
-<div class="color" style:background-color={background}>
+<div class="color" style:background-color={background} style:font-family="Orbitron">
     <div id="logo">
         <img class="pequeña" src="/Logo.png" alt="logo orbital ceu"/>
     </div>
@@ -85,6 +85,7 @@
     }
     *{
         font-size: 37.8px;
+        font-weight: 300;
     }
     
 </style>
