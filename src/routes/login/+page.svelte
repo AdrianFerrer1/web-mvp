@@ -4,11 +4,11 @@
     let email = "";
     let password = "";
 
-    let background = "aqua";
+    let background = "black";
     
 </script>
 
-<body style:background-color={background}>
+<div class="color" style:background-color={background}>
     <div id="logo">
         <img class="pequeña" src="/Logo.png" alt="logo orbital ceu"/>
     </div>
@@ -25,53 +25,66 @@
     </label>
         <button id="boton" on:click={() => goto("/orbital-ceu")}>SUBMIT</button>
 
-</body>
+</div>
 <style>
     .E-mail{
         position: absolute;
         top: 30%;
-        left: 60.3%;
+        left: 63.3%;
         transform: translate(-50%, -50%);
         font-size: 46px;
+        color: white;
     }
         
     
     .contpass{
         position: absolute;
         top: 57%;
-        left: 64.4%;
+        left: 72.9%;
         transform: translate(-50%, -50%);
-        transform: scale(3);
+        height: 5%;
+        width: 27%;
     }
     
     .contemail{
         position: absolute;
         top: 40%;
-        left: 64.5%;
+        left: 72.9%;
         transform: translate(-50%, -50%);
-        transform: scale(3);
+        height: 5%;
+        width: 27%;
+        
     }
     .password{
+        font-size: 500px;
         position: absolute;
         top: 47%;
-        left: 62.2%;
+        left: 64.9%;
         transform: translate(-50%, -50%);
         font-size: 46px;
+        color: white;
         
     }
     
     .pequeña{
-       margin-top: 250px;
-       margin-left: 150px;
-       width: 1000px;
+        position: absolute;
+       top: 25%;
+       left: 10%;
+       width: 45%;
     }
     #boton{
-        top: 860px;
-        left: 1420px;
+        top: 64%;
+        left: 59%;
         position: absolute;
       /* margin-top: 860px;
       margin-left: 1420px; */
       width: auto;
+    }
+    .color{
+        height: 100%;
+    }
+    *{
+        font-size: 37.8px;
     }
     
 </style>
