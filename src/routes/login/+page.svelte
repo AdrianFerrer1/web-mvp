@@ -29,8 +29,8 @@
 <style>
     .E-mail{
         position: absolute;
-        top: 30%;
-        left: 63.3%;
+        top: 28%;
+        left: 64.4%;
         transform: translate(-50%, -50%);
         font-size: 46px;
         color: white;
@@ -39,7 +39,7 @@
     
     .contpass{
         position: absolute;
-        top: 57%;
+        top: 59%;
         left: 72.9%;
         transform: translate(-50%, -50%);
         height: 5%;
@@ -59,7 +59,7 @@
         font-size: 500px;
         position: absolute;
         top: 47%;
-        left: 64.9%;
+        left: 67.2%;
         transform: translate(-50%, -50%);
         font-size: 46px;
         color: white;
@@ -73,12 +73,14 @@
        width: 45%;
     }
     #boton{
-        top: 64%;
-        left: 59%;
+        top: 66%;
+        left: 59.2%;
         position: absolute;
       /* margin-top: 860px;
       margin-left: 1420px; */
-      width: auto;
+      width: 7%;
+      height: 3%;
+      font-size: 22.8px;
     }
     .color{
         height: 100%;
